@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+h4{
+  background-color: #1b0066af;
+  color: white;
+  padding: 10px;
+}
+form {
+  display: grid;
+  grid-template-columns: 1fr auto; 
+  width: 100%;
+}
+#search_bar{
+  flex: 1; 
+  border: 1px solid #ccc; 
+  padding: 2px;
+  margin :10px
+}
+button{
+  background-color: #1b0066af;
+  color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin :10px;
+}
+table {
+  width: 100vw;
+  border-collapse: collapse; 
+}
+table, th, td {
+  border: 1px solid #ccc; 
+}
+
+th, td {
+  padding: 5px; 
+}
+
+.column1 {
+  width: 30%; 
+}
+
+.column2 {
+  width: 70%; 
+}
