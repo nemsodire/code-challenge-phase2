@@ -17,16 +17,20 @@ h4{
   padding: 10px;
 }
 form {
-  display: grid;
-  grid-template-columns: 1fr auto; 
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+  height: 30vh;
+  background-color: #1b0066af;
+  color: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin :10px;
 }
-#search_bar{
-  flex: 1; 
-  border: 1px solid #ccc; 
-  padding: 2px;
-  margin :10px
-}
+
+
 button{
   background-color: #1b0066af;
   color: white;
